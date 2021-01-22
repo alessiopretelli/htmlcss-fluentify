@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container_one::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.container_two::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.columns::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.bottom_main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+footer::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+main {
+  margin: 0 auto;
+  width: 70%;
+}
+
+footer {
+  background-color: lightgray;
+}
+
+header a, .background_text a, .footer_right a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+header ul li{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+select {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: gray;
+  background-color: lightgray;
+  display: inline-block;
+}
+
+.background {
+  background-color: darkblue;
+  height: 600px;
+  position: relative;
+}
+.background_header {
+  position: absolute;
+  background-image: url(../img/background-header.png);
+  background-size: cover;
+  height: 70%;
+  width: 60%;
+  bottom: 0;
+  right: 0;
+}
+
+.container_one {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: darkblue;
+}
+
+.logo {
+  float: left;
+  margin: 0.5vh;
+}
+
+.links_one {
+  float: left;
+  height: 50px;
+  padding: 15px;
+}
+.links_one ul li:first-child{
+  margin-left: 20px;
+}
+
+.links_two {
+  float: right;
+  height: 50px;
+}
+.links_two ul li:first-child{
+  padding: 15px;
+}
+.login {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 7px 10px;
+  text-align: center;
+}
+.small_button {
+  border-radius: 5px;
+  padding: 9px;
+  text-align: center;
+  background-color: green;
+}
+
+.background_text {
+  position: absolute;
+  bottom: 30%;
+  width: 60%;
+  left: 0;
+  z-index: 2;
+}
+.big_button {
+  border-radius: 5px;
+  padding: 15px;
+  width: 50%;
+  text-align: center;
+  background-color: green;
+}
+.background_text h1 {
+  font-size: 3em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.grey {
+  width: 100%;
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px 0;
+}
+.grey h3 {
+  margin-bottom: 5px;
+}
+.grey p {
+  color: grey;
+}
+
+.columns {
+  margin: 0 auto;
+  width: 70%;
+}
+.column {
+  float: left;
+  width: 33%;
+  margin: 2vh 0;
+}
+.column h5 {
+  font-size: 3vh;
+  text-align: center;
+  color: green;
+  margin-bottom: 10px;
+}
+.column p {
+  text-align: center;
+  color: lightgray;
+}
+.hr_column {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.image_one {
+  background-image: url(../img/profile.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 100%;
+  height: 25vh;
+  margin-bottom: 3vh;
+}
+.image_two {
+  background-image: url(../img/computer.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 100%;
+  height: 25vh;
+  margin-bottom: 3vh;
+}
+.image_three {
+  background-image: url(../img/doc.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 100%;
+  height: 25vh;
+  margin-bottom: 3vh;
+}
+
+.bottom_main {
+  margin: 0 auto;
+  width: 70%;
+}
+.bottom_main img {
+  float: left;
+  height: 500px;
+  width: 500px;
+}
+.text_bottom {
+  float: right;
+  width: 48%;
+  margin: 10px 0;
+  padding-top: 150px;
+}
+.text_bottom p, .text_bottom h2, .text_bottom a {
+  margin: 10px 0;
+}
+.text_bottom p {
+  color: lightgray;
+}
+
+.container_two {
+  margin: 0 auto;
+  width: 70%;
+}
+.footer_left {
+  float: left;
+  height: 100px;
+  padding: 40px 0;
+}
+.footer_right {
+  float: right;
+  height: 100px;
+  padding: 40px 0;
+}
+.footer_right p {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer_button {
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 10px;
+  text-align: center;
+  background-color: green;
+  display: inline-block;
+}
+
+#help {
+  position: fixed;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  bottom: 0;
+  right: 10%;
+  text-decoration: none;
+  color: white;
+}
